@@ -8,7 +8,7 @@ favsports.md
 
 ## The Blues
 Also the **2019** Stanley Cup Champs
-![Blues](blues.png)
+![Blues](test.jpg)
 
 
 
