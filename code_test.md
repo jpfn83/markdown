@@ -1,0 +1,35 @@
+code_test.md
+
+# Html code sample
+
+Heres the fizzbuzz code we made earlier in the year
+
+### HTML
+```html
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="UTF-8">
+       <title>Fizz Buzz</title>
+
+       <script>
+           function fizzbuzz() {
+           var display = document.getElementById('display');
+           var displayHTML = "";
+           for (i = 0; i < 100; i++) {
+           displayHTML += "<p>" + i + "</p>";
+           }
+           display.innerHTML = displayHTML;
+           }
+       </script>
+   </head>
+   <body onload="fizzbuzz()">
+       <div id="display">
+       </div>
+   </body>
+</html>
+```
+
+
+
+[return to home page](./README.md)
